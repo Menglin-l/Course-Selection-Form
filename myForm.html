@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Course Selection Form
+        </title>
+    </head>
+
+    <body>
+        <form>
+            <h1> Course Selection Form </h1>
+            <hr/>
+            <h3><em> Fill out the form carefully for Course Registration </em></h3>
+
+            <br />
+            <br />
+            <!-- Text Input -->
+            <label for="name"> Student Name: </label>
+            <br />
+            <input type="text" id="firstname" placeholder="first name" required> <input type="text" id="lastname" placeholder="last name" required>
+            <br />
+            <br />
+            <label for="name"> Student ID: </label>
+            <br />
+            <input type="text" id="id" placeholder="student id" required>
+            <br />
+            <br />
+            <!-- Number Input -->
+            <label for="birthdate"> Birth Date: </label>
+            <br />
+            <input type="number" id="month" placeholder="Month" required> <input type="number" id="day" placeholder="Day" required> <input type="number" id="year" placeholder="Year" required>
+            <br />
+            <br />
+            <label for="gradelevel"> Grade Level: </label>
+            <br />
+            <input type="number" id="gradelevel" required>
+            <br />
+            <br />
+            <label for="gender">Gender: </label>
+            <!-- Checkboxes -->
+            <br />
+            <input type="checkbox" id="gender1">
+            <label for="gender1"> Male </label>
+            <input type="checkbox" id="gender2">
+            <label for="gender2"> Female </label>
+            <br />
+            <br />
+            <label for="term">Term: </label>
+            <br />
+            <!-- Radio Buttons -->
+            <input type="radio" id="term1">
+            <label for="term1"> Spring </label>
+            <input type="radio" id="term2">
+            <label for="term2"> Summer </label>
+            <input type="radio" id="term3">
+            <label for="term3"> Fall </label>
+            <br />
+            <br />
+            <!-- Dropdown Menu -->
+            <label for="course">Course: </label>
+            <br />
+            <select id="course">
+                <option> English 101 </option>
+                <option> English 102 </option>
+                <option> Math 101 </option>
+                <option> Math 102 </option>
+                <option> History 101 </option>
+                <option> History 102 </option>
+                <option> Creative Writing 1 </option>
+                <option> Creative Writing 2 </option>
+            </select>
+            <br />
+            <br />
+            <!-- Text Area -->
+            <label for="comments"> Additional Comments: </label>
+            <br />
+            <textarea id="comments" rows="4" cols="50" placeholder="Enter your comments here" required> </textarea>
+            <br />
+            <br />
+            <!-- Submit Button -->
+            <button type="submit"> Submit </button>
+            <button type="refresh" disabled> Refresh </button>
+        </form>
+
+    </body>
+</html>
